@@ -1,1 +1,7 @@
-# rnevius.github.io
+# Running in Development
+
+```
+$ bundle install
+$ bundle exec jekyll serve
+```
+
