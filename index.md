@@ -1,6 +1,18 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
 ---
+
+# This is a test.
+
+```python
+from django.db import models
+
+
+class Car(models.Model):
+    """This is some documentation."""
+    name = models.CharField(max_length=255)
+
+
+    def __str__(self):
+        return self.name
+```
+
