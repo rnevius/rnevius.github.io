@@ -13,19 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+baseurl: "" # the subpath of your site, e.g. /blog
 description: >- # this means to ignore newlines until "baseurl:"
   A repository of seemingly-disparate technical musings.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.ryannevius.com"
+paginate: 10
 github_username: rnevius
+url: "https://blog.ryannevius.com"
 
 # Build settings
-defaults:
-  -
-    scope:
-      path: "" # All files
-    values:
-      layout: null
 markdown: kramdown
 plugins:
   - jekyll-feed
