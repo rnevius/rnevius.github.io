@@ -1,6 +1,7 @@
 ---
 title:  "Just Another Post"
 date:   2018-12-08 08:28:16 +0700
+excerpt: These excerpts should be only a sentence or two. If we can do that, we don't need a "read more" link.
 ---
 Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

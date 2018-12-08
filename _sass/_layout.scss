@@ -3,3 +3,24 @@ main {
   max-width: 600px;
 }
 
+.meta {
+  font-size: 1.2rem;
+  font-style: italic;
+  opacity: 0.5;
+
+  &::before {
+    background: #bf616a;
+    content: '';
+    display: block;
+    height: 0.3rem;
+    margin-bottom: 1rem;
+    width: 4rem;
+  }
+}
+
+.posts {
+  article {
+    margin-bottom: 6rem;
+  }
+}
+

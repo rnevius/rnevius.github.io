@@ -1,6 +1,7 @@
 ---
-title:  "Jekyll Kitchen Sink"
+title:  Jekyll Kitchen Sink
 date:   2018-11-26 11:37:16 +0700
+excerpt: You’ll find this post in your `_posts` directory. It has a custom excerpt that we'll use to test things.
 categories: jekyll update
 ---
 You’ll find this post in your `_posts` directory.
