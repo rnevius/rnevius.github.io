@@ -15,7 +15,11 @@ Jekyll also offers powerful support for code snippets in JavaScript. These are
 called [fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/):
 
 ```javascript
-export default class OnboardingStartView extends React.Component {
+import React from 'react';
+import { Text, View } from 'react-native';
+
+
+export default class OnboardingView extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -23,6 +27,7 @@ export default class OnboardingStartView extends React.Component {
       walkthroughDone: undefined,
     };
   }
+}
 
 ```
 
