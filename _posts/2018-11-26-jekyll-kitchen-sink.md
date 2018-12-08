@@ -18,7 +18,6 @@ called [fenced code blocks](https://help.github.com/articles/creating-and-highli
 import React from 'react';
 import { Text, View } from 'react-native';
 
-
 export default class OnboardingView extends React.Component {
   constructor(props) {
     super(props);
@@ -28,14 +27,13 @@ export default class OnboardingView extends React.Component {
     };
   }
 }
-
 ```
 
 And Ruby:
 ```ruby
 module Jekyll
   class TagIndex < Page
-    def initialize(site, base, dir, tag)
+    def initialize(site, base, dir, tag):
       @site = site
       @base = base
       @dir = dir

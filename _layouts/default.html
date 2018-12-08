@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
   <title>
     {% if page.title == "home" %}
@@ -12,12 +12,20 @@
     {% endif %}
   </title>
 
+  <meta name="theme-color" content="#22313f">
+  <meta name="description" content="A description of the page">
+  <meta name="robots" content="index,follow">
+  <meta name="format-detection" content="telephone=no">
+  
+
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC:400,700|Playfair+Display:400,700" rel="stylesheet">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
 </head>
 
 <body>
-  {{ content }}
+  <main>
+    {{ content }}
+  </main>
 </body>
 </html>
